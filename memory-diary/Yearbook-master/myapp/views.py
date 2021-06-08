@@ -48,16 +48,16 @@ def index(request):
     # print (myUser)
     # login(request, myUser)
     # return redirect('/profile')
-    if request.method=='POST':
-        username = request.POST['username']
-        password = request.POST['password']
-        user = authenticate(username=username, password=password)
-        if user is not None:
-            if user.is_active:
-                login(request, user)
-                return redirect('/profile')
-            else:
-                return render(request, 'myapp/index.html',{'error_string':'Not found'})
+    # if request.method=='POST':
+    #     username = request.POST['username']
+    #     password = request.POST['password']
+    #     user = authenticate(username=username, password=password)
+    #     if user is not None:
+    #         if user.is_active:
+    #             login(request, user)
+    #             return redirect('/profile')
+    #         else:
+    #             return render(request, 'myapp/index.html',{'error_string':'Not found'})
 
 
     # if request.method == 'POST':
@@ -98,7 +98,7 @@ def index(request):
 #     # login(request, myUser)
 #     # return redirect('/profile')
 
-@login_required()
+# @login_required()
 def profile(request):
     email = request.user.email
     exceptions = ['subodh.verma.min19@itbhu.ac.in',]
@@ -172,7 +172,7 @@ def profile(request):
     return redirect('/profile')
 
 
-@login_required
+# @login_required
 def answerMyself(request):
     u = request.user
     if request.method == 'GET':
@@ -211,7 +211,7 @@ def get_poll_display(polls, VotesDisplay):
     return result
 
 
-@login_required()
+# @login_required()
 def poll(request):
     u = request.user
     VotesDisplay = u.student.VotesIHaveGiven
@@ -267,7 +267,7 @@ def poll(request):
         u.student.save(update_fields=('VotesIHaveGiven',))
     return redirect("/poll")
         
-@login_required()
+# @login_required()
 def comment(request):
     u = request.user
     users_all = User.objects.filter(is_superuser=False)
@@ -320,7 +320,7 @@ def comment(request):
         u.student.save()
     return redirect('/comment')
 
-@login_required()
+# @login_required()
 def otherComment(request):
     u = request.user
     if request.method=='GET':
@@ -347,7 +347,7 @@ def otherComment(request):
     return redirect('/otherComment')
 
 
-@login_required()
+# @login_required()
 def yearbook(request):
     dep="eee"
     departmentDic={
