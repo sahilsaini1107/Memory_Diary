@@ -38,4 +38,5 @@ python manage.py yearbooks [-h] [-d DEPARTMENT] [-o OUTPUT] [--all] [--version] 
 ```
 <br>
 
-[![](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/images/0)](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/links/0)[![](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/images/1)](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/links/1)[![](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/images/2)](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/links/2)[![](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/images/3)](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/links/3)[![](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/images/4)](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/links/4)[![](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/images/5)](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/links/5)[![](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/images/6)](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/links/6)[![](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/images/7)](https://sourcerer.io/fame/abhinavcode/COPS-IITBHU/Yearbook/links/7)
+
+# Best way to share and collect your college stories spent with friends. Feel free to clone and use it. Don't forget to star the repo.
